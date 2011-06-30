@@ -35,7 +35,7 @@ test.describe('load config', function () {
   args[2](null, CONFIG)
 
   assert.equal('object', typeof EXPORTS.config)
-  assert.equal('bash deploy.sh', EXPORTS.config['secretpath'].command)
+  assert.equal('bash scripts/deploy.sh', EXPORTS.config['secretpath'].command)
 })
 
 test.describe('http#createServer', function () {

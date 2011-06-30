@@ -1,5 +1,5 @@
 { "secretpath" :
-  { "command"  : "bash deploy.sh"
+  { "command"  : "bash scripts/deploy.sh"
   , "branch"   : "master"
   , "logdir"   : "/tmp"
   }

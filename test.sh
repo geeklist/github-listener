@@ -1,2 +1,2 @@
 
-curl --data @fixture-hook.json http://localhost:8080/secretpath
+curl --data @fixture-hook.txt http://localhost:8080/secretpath
