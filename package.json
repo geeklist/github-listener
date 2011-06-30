@@ -1,0 +1,22 @@
+{
+  "name": "github-listener",
+  "version": "0.1.0",
+  "description": "Tests and sends code to places.",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/geeklist/github-listener.git"
+  },
+  "author": "Votizen Inc.",
+  "engines": {
+    "node": ">=0.4.7"
+  },
+  "bin": {
+    "github-listener": "server.js"
+  },
+  "dependencies": {
+    "microtest": "0.2.x"
+  },
+  "scripts": {
+    "test": "node server.test.js"
+  }
+}
